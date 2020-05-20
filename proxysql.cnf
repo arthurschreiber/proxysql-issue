@@ -32,8 +32,7 @@ mysql_variables=
 	commands_stats=true
 	sessions_sort=true
 	connect_retries_on_failure=10
-  #default_session_track_gtids="OWN_GTID"
-  init_connect="SET SESSION session_track_gtids = OWN_GTID"
+  default_session_track_gtids="OWN_GTID"
 }
 
 
